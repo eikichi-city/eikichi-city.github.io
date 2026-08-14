@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>野村瑛吉 / Eikichi Nomura — NLP・LLM安全性研究</title>
+<meta name="description" content="野村瑛吉。横浜国立大学 森研究室 M2。NLP・LLM安全性研究と、JAI-Trustでの子ども向けLLM安全性ベンチマーク構築に取り組んでいます。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&family=Noto+Sans+JP:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">本文へスキップ</a>
+
+<header class="nav" id="top">
+  <a class="nav__brand" href="#top" aria-label="トップへ戻る">
+    <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="24" cy="32" r="17" class="mark__a"/>
+      <circle cx="40" cy="32" r="17" class="mark__b"/>
+      <line x1="24" y1="32" x2="40" y2="32" class="mark__link"/>
+    </svg>
+    <span class="nav__name">Eikichi Nomura</span>
+  </a>
+  <nav class="nav__links" aria-label="ページ内ナビゲーション">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#links">Links</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="hero__text reveal">
+      <p class="eyebrow">NLP researcher / LLM safety</p>
+      <h1>野村 瑛吉<span class="hero__en">Eikichi Nomura</span></h1>
+      <p class="hero__lead">
+        横浜国立大学 森研究室 M2。子ども・若年層向けLLM安全性ベンチマークの構築を通じて、
+        AIとの対話をより安全なものにする研究に取り組んでいます。
+      </p>
+      <ul class="badges">
+        <li>JAI-Trust コアメンバー</li>
+        <li>コンサルティング業界</li>
+      </ul>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#research">研究を見る</a>
+        <a class="btn btn--ghost" href="#contact">問い合わせる</a>
+      </div>
+    </div>
+    <div class="hero__mark reveal">
+      <img src="assets/profile.jpg" alt="野村瑛吉の写真" width="600" height="600">
+    </div>
+  </section>
+
+  <section id="about" class="about section">
+    <h2 class="section__title reveal">About</h2>
+
+    <div class="about__grid">
+      <div class="info-card reveal">
+        <h3>研究・専門</h3>
+        <ul class="about-list">
+          <li>横浜国立大学大学院 森研究室 M2（専攻：NLP、LLM安全性研究、AIガバナンス）</li>
+          <li>JAI-Trust「AIとの対話によるリスク」分科会 コアメンバー</li>
+        </ul>
+      </div>
+
+      <div class="info-card reveal">
+        <h3>人物像</h3>
+        <ul class="about-list">
+          <li>MBTIはENTP</li>
+          <li>大学でプログラミングサークルを設立・運営</li>
+          <li>シンクタンクで長期インターン中</li>
+          <li>趣味は海外サッカー観戦・フットサル</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="research section">
+    <h2 class="section__title reveal">Research / Talks</h2>
+
+    <article class="paper-card reveal">
+      <p class="eyebrow">YANS2026 ポスター発表</p>
+      <h3 class="paper-card__title">
+        子どもにとって安全なLLMを目指して<br>
+        〜想定応答に対する人手評価とLLM-as-a-judgeの比較分析〜
+      </h3>
+
+      <dl class="paper-card__meta">
+        <div><dt>発表</dt><dd>第21回言語処理若手シンポジウム（YANS2026）</dd></div>
+        <div><dt>セッション</dt><dd>セッション① ／ ポスター番号 S1-P29</dd></div>
+        <div><dt>日時</dt><dd>2026年8月17日 11:45–12:45</dd></div>
+      </dl>
+
+      <p class="paper-card__desc">
+        子ども・若年層に対するLLMの応答の安全性について、人手評価とLLM-as-a-judgeによる評価を比較し、
+        両者の一致度や乖離の要因を分析しました。
+      </p>
+
+      <p class="paper-card__authors">
+        <strong>著者：</strong>野村瑛吉、杉山弘晃、黒田麻衣子、清水良太郎、高橋史、高見享佑、安藤祐介、中山功太、森辰則
+      </p>
+      <p class="paper-card__affil">
+        <strong>所属：</strong>横浜国立大学、AISI、山陽学園大学、早稲田大学、信州大学、大阪教育大学、みんなのコード、NII LLMC
+      </p>
+
+      <a class="btn btn--ghost" href="assets/yans2026-poster.pdf">
+        ポスターPDFを見る <span aria-hidden="true">↗</span>
+      </a>
+    </article>
+  </section>
+
+  <section id="links" class="links section">
+    <h2 class="section__title reveal">Links</h2>
+    <div class="links__row reveal">
+      <a class="link-pill" href="https://github.com/eikichi-city" target="_blank" rel="noopener">
+        <span class="link-pill__icon">GH</span> GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+    <h2 class="section__title reveal">Contact</h2>
+    <p class="reveal">お問い合わせはメールにてお願いします。</p>
+    <a class="btn btn--primary reveal" href="mailto:nomura-eikichi-xk@ynu.jp">
+      nomura-eikichi-xk@ynu.jp
+    </a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Eikichi Nomura</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
